@@ -1,6 +1,6 @@
 # Container Control
 
-CONTAINER=iandennismiller/python
+CONTAINER=iandennismiller/base
 
 all: build run
 	@echo ok

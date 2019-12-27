@@ -21,17 +21,6 @@ RUN apt-get update && \
     telnet \
     net-tools \
     tmux \
-    nginx \
-    build-essential \
-    python \
-    python-dev \
-    python-pip \
-    python-virtualenv \
-    python3 \
-    python3-dev \
-    python3-pip \
-    python3-virtualenv \
-    virtualenvwrapper \
     && \
   apt-get --purge remove -y .\*-doc$ && \
   apt-get clean -y
